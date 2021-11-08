@@ -1,1 +1,30 @@
 /* Add your own styles */
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(41, 20, 131);
+    color: white;
+    padding-bottom: 3em;
+}
+
+#controls{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(63, 147, 221);
+    padding: 2em;
+    color: white;
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(215, 234, 250);
+}
+
+label{
+    font-weight: bold;
+}
